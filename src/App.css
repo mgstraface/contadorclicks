@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: rgb(29, 7, 36);
+}
+
+.App {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding-top: 15px;
+	font-family: Lato, sans-serif;
+}
+
+.logoMatiCont {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ppalCont {
+	height: 500px;
+	min-width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
